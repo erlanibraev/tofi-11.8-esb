@@ -567,8 +567,8 @@
         <xs:complexContent>
             <xs:extension base="AnnotableType">
                 <xs:sequence>
-                    <xs:element ref="Name" maxOccurs="unbounded"></xs:element>
-                    <xs:element ref="FullName" maxOccurs="unbounded"></xs:element>
+                    <xs:element ref="Name" maxOccurs="1"/>
+                    <xs:element ref="FullName" maxOccurs="1"/>
                 </xs:sequence>
                 <xs:attribute name="VersionNumber" type="VersionNumberType" use="required">
                     <xs:annotation>
@@ -642,7 +642,7 @@
 
     <xs:complexType name="MetadataType">
         <xs:annotation>
-            <xs:documentation>Тип оптсывающий метаданные.</xs:documentation>
+            <xs:documentation>Тип описывающий метаданные.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="MetadataVersion" type="VersionType">
@@ -1170,7 +1170,7 @@
             <xs:documentation>Тип описывающий контейнеры свойств.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
-            <xs:element name="PropertyContainer" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="PropertyContainer" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 

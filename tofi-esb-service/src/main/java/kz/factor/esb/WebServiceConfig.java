@@ -37,7 +37,6 @@ public class WebServiceConfig {
     @Bean
     public XsdSchema getSchema() {
         return new SimpleXsdSchema(new ClassPathResource("NSTOFI_ver_5.xsd"));
-        //return new SimpleXsdSchema(new ClassPathResource("xsd/NSTOFI_ver_5.xsd", ForClassLoader.class.getClassLoader()));
     }
 
 }
