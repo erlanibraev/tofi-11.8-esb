@@ -12,6 +12,7 @@ import org.springframework.xml.xsd.XsdSchema;
 
 /**
  * Created by Erlan.Ibraev on 09.07.2016.
+ * Конфигурация веб сериса
  */
 
 @Configuration
