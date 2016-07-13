@@ -16,6 +16,7 @@ public class MessageSenderService {
     @PayloadRoot(namespace = NAMESPACE_URI, localPart="MessageData")
     @ResponsePayload
     public MessageDataType sendMessage(@RequestPayload MessageDataType message) {
+        // TODO: 13.07.2016
         MessageDataType result = new MessageDataType();
         return result;
     }
