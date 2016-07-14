@@ -1,0 +1,372 @@
+<Metadata xmlns="http://www.factor.kz/resources/TOFISchema" LatestVersion="Latest_version">
+    <!--
+    Владелец данных
+    Тип объектов - Отправки _T_1012
+    Класс - Повагонные отправки _C_1021
+    Объект - ОтправкаA05253612059311213661601 - _O_479996
+    -->
+    <Owners>
+        <Owner id="479996" code="_O_479996">
+            <!-- ОтправкаA05253612059311213661601 -->
+            <Version id="0" DateBegin="1800-01-01" DateEnd="3333-12-31" LatestVersion="Latest_version" VersionNumber="">
+                <Name xml:lang="ru">ОтправкаA05253612059311213661601</Name>
+                <FullName xml:lang="ru">ОтправкаA05253612059311213661601</FullName>
+            </Version>
+            <OwnerContainer id="1012" code="_T_1012">Отправки
+                <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                         LatestVersion="Latest_version">
+                    <Name xml:lang="ru">Отправки</Name>
+                    <FullName xml:lang="ru">Отправки</FullName>
+                </Version>
+            </OwnerContainer>
+            <OwnerContainerFactor id="1021" code="_C_1021">Повагонные отправки
+                <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                         LatestVersion="Latest_version">
+                    <Name xml:lang="ru">Повагонные отправки</Name>
+                    <FullName xml:lang="ru">Повагонные отправки</FullName>
+                </Version>
+                <Factor id="1004" code="F_1004">
+                    <Name xml:lang="ru">Вид грузовой отправки</Name>
+                    <FullName xml:lang="ru">Вид грузовой отправки</FullName>
+                </Factor>
+                <FactorVal id="1017" code="FV_1017" Order="1">
+                    <Name xml:lang="ru">повагонная отправка</Name>
+                    <FullName xml:lang="ru">повагонная отправка</FullName>
+                </FactorVal>
+            </OwnerContainerFactor>
+
+        </Owner>
+    </Owners>
+    <!--
+    Свойства
+    Типа атрибут - Дата отправления груза - _P_1240
+    Типа измеритель - Вес груза - _P_1244
+    Типа фактор - Вид отправки - _P_1293
+    Типа объект - Станция отправления _P_1321
+
+    поставщик данных
+    ЕК ИОДВ
+    Тип объектов - Поставщики данных - _T_2017
+    Класс объектов - Информационные системы АО "НК "КТЖ" - _C_4151
+    Объект - ЕК ИОДВ - _O_12202
+
+    Статус данных
+    Фактор статуса - _F_1068
+    факт - _FV_1446
+    -->
+    <Properties>
+        <Property id="1240" code="_P_1240" PropertyValueType="_Date"
+                  PropertyValDependPeriod="_not_depend" isUnique="_unique">
+            <!-- Дата отправления груза -->
+            <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31" LatestVersion="Latest_version">
+                <Name xml:lang="ru">Дата отправления груза</Name>
+                <FullName xml:lang="ru">Дата отправления груза</FullName>
+            </Version>
+            <DataStatus code="" id="0">
+                <Factor id="1068" code="F_1068">
+                    <Name xml:lang="ru">Фактор статуса</Name>
+                    <FullName xml:lang="ru">Фактор статуса</FullName>
+                    <FactorVal id="1445" code="FV_1445" Order="1">
+                        <Name xml:lang="ru">план</Name>
+                        <FullName xml:lang="ru">план</FullName>
+                    </FactorVal>
+                    <FactorVal id="1446" code="FV_1446" Order="2">
+                        <Name xml:lang="ru">факт</Name>
+                        <FullName xml:lang="ru">факт</FullName>
+                    </FactorVal>
+                    <FactorVal id="17137" code="FV_17137" Order="3">
+                        <Name xml:lang="ru">план на основе прошлого периода</Name>
+                        <FullName xml:lang="ru">план на основе прошлого периода</FullName>
+                    </FactorVal>
+                    <FactorVal id="17138" code="FV_17138" Order="4">
+                        <Name xml:lang="ru">план на основе позапрошлого периода</Name>
+                        <FullName xml:lang="ru">план на основе позапрошлого периода</FullName>
+                    </FactorVal>
+                </Factor>
+            </DataStatus>
+            <DataStatusDefault id="1446" code="_FV_1446" Order="2">
+                <Name xml:lang="ru">факт</Name>
+                <FullName xml:lang="ru">факт</FullName>
+            </DataStatusDefault>
+            <DataProvider code="" id="0">
+                <OwnerContainer id="2017" code="_T_2017">Поставщики данных
+                    <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                             LatestVersion="Latest_version">
+                        <Name xml:lang="ru">Поставщики данных</Name>
+                        <FullName xml:lang="ru">Поставщики данных</FullName>
+                    </Version>
+                </OwnerContainer>
+                <OwnerContainerFactor id="4151" code="_C_4151">Информационные системы АО "НК "КТЖ"
+                    <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                             LatestVersion="Latest_version">
+                        <Name xml:lang="ru">Информационные системы АО "НК "КТЖ"</Name>
+                        <FullName xml:lang="ru">Информационные системы АО "НК "КТЖ"</FullName>
+                    </Version>
+                    <Factor id="3077" code="F_3077">
+                        <Name xml:lang="ru">Поставщики</Name>
+                        <FullName xml:lang="ru">Поставщики</FullName>
+                    </Factor>
+                    <FactorVal id="14093" code="FV_14093" Order="1">
+                        <Name xml:lang="ru">Информационные системы АО "НК "КТЖ"</Name>
+                        <FullName xml:lang="ru">Информационные системы АО "НК "КТЖ"</FullName>
+                    </FactorVal>
+                </OwnerContainerFactor>
+            </DataProvider>
+            <DataProviderDefault id="12202" code="_O_12202">
+                <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                         LatestVersion="Latest_version">
+                    <Name xml:lang="ru">ЕК ИОДВ</Name>
+                    <FullName xml:lang="ru">ЕК ИОДВ</FullName>
+                </Version>
+            </DataProviderDefault>
+        </Property>
+        <!--
+        Типа измеритель - Вес груза - _P_1244
+        -->
+        <PropertyMeter id="1244" code="_T_1244" PropertyValDependPeriod="_not_depend"
+                       PropertyStructure="Simple_property" PropertyValueMeterType="">
+            <!-- Вес груза -->
+            <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31" LatestVersion="Latest_version">
+                <Name xml:lang="ru">Вес груза</Name>
+                <FullName xml:lang="ru">Вес груза</FullName>
+            </Version>
+            <MeasureBase id="0" code="" KFromBase="1">
+                <Name xml:lang="ru">кг</Name>
+                <FullName xml:lang="ru">килограмм</FullName>
+            </MeasureBase>
+            <Meter id="0" code="" MeterStructure="Simple_property">
+                <Name xml:lang="ru">кг</Name>
+                <FullName xml:lang="ru">килограмм</FullName>
+            </Meter>
+            <DataStatus code="" id="0">
+                <Factor id="1068" code="F_1068">
+                    <Name xml:lang="ru">Фактор статуса</Name>
+                    <FullName xml:lang="ru">Фактор статуса</FullName>
+                    <FactorVal id="1445" code="FV_1445" Order="1">
+                        <Name xml:lang="ru">план</Name>
+                        <FullName xml:lang="ru">план</FullName>
+                    </FactorVal>
+                    <FactorVal id="1446" code="FV_1446" Order="2">
+                        <Name xml:lang="ru">факт</Name>
+                        <FullName xml:lang="ru">факт</FullName>
+                    </FactorVal>
+                    <FactorVal id="17137" code="FV_17137" Order="3">
+                        <Name xml:lang="ru">план на основе прошлого периода</Name>
+                        <FullName xml:lang="ru">план на основе прошлого периода</FullName>
+                    </FactorVal>
+                    <FactorVal id="17138" code="FV_17138" Order="4">
+                        <Name xml:lang="ru">план на основе позапрошлого периода</Name>
+                        <FullName xml:lang="ru">план на основе позапрошлого периода</FullName>
+                    </FactorVal>
+                </Factor>
+            </DataStatus>
+            <DataStatusDefault id="1446" code="_FV_1446" Order="2">
+                <Name xml:lang="ru">факт</Name>
+                <FullName xml:lang="ru">факт</FullName>
+            </DataStatusDefault>
+            <DataProvider code="" id="0">
+                <OwnerContainer id="2017" code="_T_2017">Поставщики данных
+                    <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                             LatestVersion="Latest_version">
+                        <Name xml:lang="ru">Поставщики данных</Name>
+                        <FullName xml:lang="ru">Поставщики данных</FullName>
+                    </Version>
+                </OwnerContainer>
+                <OwnerContainerFactor id="4151" code="_C_4151">Информационные системы АО "НК "КТЖ"
+                    <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                             LatestVersion="Latest_version">
+                        <Name xml:lang="ru">Информационные системы АО "НК "КТЖ"</Name>
+                        <FullName xml:lang="ru">Информационные системы АО "НК "КТЖ"</FullName>
+                    </Version>
+                    <Factor id="3077" code="F_3077">
+                        <Name xml:lang="ru">Поставщики</Name>
+                        <FullName xml:lang="ru">Поставщики</FullName>
+                    </Factor>
+                    <FactorVal id="14093" code="FV_14093" Order="1">
+                        <Name xml:lang="ru">Информационные системы АО "НК "КТЖ"</Name>
+                        <FullName xml:lang="ru">Информационные системы АО "НК "КТЖ"</FullName>
+                    </FactorVal>
+                </OwnerContainerFactor>
+            </DataProvider>
+            <DataProviderDefault id="12202" code="_O_12202">
+                <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                         LatestVersion="Latest_version">
+                    <Name xml:lang="ru">ЕК ИОДВ</Name>
+                    <FullName xml:lang="ru">ЕК ИОДВ</FullName>
+                </Version>
+            </DataProviderDefault>
+        </PropertyMeter>
+        <!--
+        Типа фактор - Вид отправки - _P_1293
+        -->
+        <PropertyRef id="1293" code="_P_1293" PropertyValDependPeriod="_not_depend" isUnique="_unique"
+                     PropertyValueRefType="">
+            <!-- Вид отправки -->
+            <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31" LatestVersion="Latest_version">
+                <Name xml:lang="ru">Вид отправки</Name>
+                <FullName xml:lang="ru">Вид отправки</FullName>
+            </Version>
+            <Factor id="1004" code="_F_1004">
+                <Name xml:lang="ru">Вид грузовой отправки</Name>
+                <FullName xml:lang="ru">Вид грузовой отправки</FullName>
+                <FactorVal id="1017" code="FV_1017" Order="1">
+                    <Name xml:lang="ru">повагонная отправка</Name>
+                    <FullName xml:lang="ru">повагонная отправка</FullName>
+                </FactorVal>
+                <FactorVal id="1018" code="FV_1018" Order="2">
+                    <Name xml:lang="ru">групповая отправка</Name>
+                    <FullName xml:lang="ru">групповая отправка</FullName>
+                </FactorVal>
+                <FactorVal id="1019" code="FV_1019" Order="3">
+                    <Name xml:lang="ru">маршрутная отправка</Name>
+                    <FullName xml:lang="ru">маршрутная отправка</FullName>
+                </FactorVal>
+                <FactorVal id="1020" code="FV_1020" Order="4">
+                    <Name xml:lang="ru">мелкая грузовая отправка</Name>
+                    <FullName xml:lang="ru">мелкая грузовая отправка</FullName>
+                </FactorVal>
+                <FactorVal id="1021" code="FV_1021" Order="5">
+                    <Name xml:lang="ru">контейнерная груженая отправка</Name>
+                    <FullName xml:lang="ru">план на основе прошлого периода</FullName>
+                </FactorVal>
+                <FactorVal id="1454" code="FV_1454" Order="6">
+                    <Name xml:lang="ru">контейнерная порожняя отправка</Name>
+                    <FullName xml:lang="ru">контейнерная порожняя отправка</FullName>
+                </FactorVal>
+            </Factor>
+            <DataStatus code="" id="0">
+                <Factor id="1068" code="F_1068">
+                    <Name xml:lang="ru">Фактор статуса</Name>
+                    <FullName xml:lang="ru">Фактор статуса</FullName>
+                    <FactorVal id="1445" code="FV_1445" Order="1">
+                        <Name xml:lang="ru">план</Name>
+                        <FullName xml:lang="ru">план</FullName>
+                    </FactorVal>
+                    <FactorVal id="1446" code="FV_1446" Order="2">
+                        <Name xml:lang="ru">факт</Name>
+                        <FullName xml:lang="ru">факт</FullName>
+                    </FactorVal>
+                    <FactorVal id="17137" code="FV_17137" Order="3">
+                        <Name xml:lang="ru">план на основе прошлого периода</Name>
+                        <FullName xml:lang="ru">план на основе прошлого периода</FullName>
+                    </FactorVal>
+                    <FactorVal id="17138" code="FV_17138" Order="4">
+                        <Name xml:lang="ru">план на основе позапрошлого периода</Name>
+                        <FullName xml:lang="ru">план на основе позапрошлого периода</FullName>
+                    </FactorVal>
+                </Factor>
+            </DataStatus>
+            <DataStatusDefault id="1446" code="_FV_1446" Order="2">
+                <Name xml:lang="ru">факт</Name>
+                <FullName xml:lang="ru">факт</FullName>
+            </DataStatusDefault>
+            <DataProvider code="" id="0">
+                <OwnerContainer id="2017" code="_T_2017">Поставщики данных
+                    <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                             LatestVersion="Latest_version">
+                        <Name xml:lang="ru">Поставщики данных</Name>
+                        <FullName xml:lang="ru">Поставщики данных</FullName>
+                    </Version>
+                </OwnerContainer>
+                <OwnerContainerFactor id="4151" code="_C_4151">Информационные системы АО "НК "КТЖ"
+                    <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                             LatestVersion="Latest_version">
+                        <Name xml:lang="ru">Информационные системы АО "НК "КТЖ"</Name>
+                        <FullName xml:lang="ru">Информационные системы АО "НК "КТЖ"</FullName>
+                    </Version>
+                    <Factor id="3077" code="F_3077">
+                        <Name xml:lang="ru">Поставщики</Name>
+                        <FullName xml:lang="ru">Поставщики</FullName>
+                    </Factor>
+                    <FactorVal id="14093" code="FV_14093" Order="1">
+                        <Name xml:lang="ru">Информационные системы АО "НК "КТЖ"</Name>
+                        <FullName xml:lang="ru">Информационные системы АО "НК "КТЖ"</FullName>
+                    </FactorVal>
+                </OwnerContainerFactor>
+            </DataProvider>
+            <DataProviderDefault id="12202" code="_O_12202">
+                <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                         LatestVersion="Latest_version">
+                    <Name xml:lang="ru">ЕК ИОДВ</Name>
+                    <FullName xml:lang="ru">ЕК ИОДВ</FullName>
+                </Version>
+            </DataProviderDefault>
+
+        </PropertyRef>
+        <!--
+        Типа объект - Станция отправления _P_1321
+        -->
+        <PropertyRef id="1321" code="P_1321" PropertyValDependPeriod="_not_depend" PropertyValueRefType=""
+                     isUnique="_unique">
+            <!-- Станция отправления -->
+            <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31" LatestVersion="Latest_version">
+                <Name xml:lang="ru">Станция отправления</Name>
+                <FullName xml:lang="ru">Станция отправления</FullName>
+            </Version>
+            <OwnerContainer id="1006" code="_T_1006">Раздельные пункты
+                <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                         LatestVersion="Latest_version">
+                    <Name xml:lang="ru">Раздельные пункты</Name>
+                    <FullName xml:lang="ru">Раздельные пункты</FullName>
+                </Version>
+            </OwnerContainer>
+            <DataStatus code="" id="0">
+                <Factor id="1068" code="F_1068">
+                    <Name xml:lang="ru">Фактор статуса</Name>
+                    <FullName xml:lang="ru">Фактор статуса</FullName>
+                    <FactorVal id="1445" code="FV_1445" Order="1">
+                        <Name xml:lang="ru">план</Name>
+                        <FullName xml:lang="ru">план</FullName>
+                    </FactorVal>
+                    <FactorVal id="1446" code="FV_1446" Order="2">
+                        <Name xml:lang="ru">факт</Name>
+                        <FullName xml:lang="ru">факт</FullName>
+                    </FactorVal>
+                    <FactorVal id="17137" code="FV_17137" Order="3">
+                        <Name xml:lang="ru">план на основе прошлого периода</Name>
+                        <FullName xml:lang="ru">план на основе прошлого периода</FullName>
+                    </FactorVal>
+                    <FactorVal id="17138" code="FV_17138" Order="4">
+                        <Name xml:lang="ru">план на основе позапрошлого периода</Name>
+                        <FullName xml:lang="ru">план на основе позапрошлого периода</FullName>
+                    </FactorVal>
+                </Factor>
+            </DataStatus>
+            <DataStatusDefault id="1446" code="_FV_1446" Order="2">
+                <Name xml:lang="ru">факт</Name>
+                <FullName xml:lang="ru">факт</FullName>
+            </DataStatusDefault>
+            <DataProvider code="" id="0">
+                <OwnerContainer id="2017" code="_T_2017">Поставщики данных
+                    <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                             LatestVersion="Latest_version">
+                        <Name xml:lang="ru">Поставщики данных</Name>
+                        <FullName xml:lang="ru">Поставщики данных</FullName>
+                    </Version>
+                </OwnerContainer>
+                <OwnerContainerFactor id="4151" code="_C_4151">Информационные системы АО "НК "КТЖ"
+                    <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                             LatestVersion="Latest_version">
+                        <Name xml:lang="ru">Информационные системы АО "НК "КТЖ"</Name>
+                        <FullName xml:lang="ru">Информационные системы АО "НК "КТЖ"</FullName>
+                    </Version>
+                    <Factor id="3077" code="F_3077">
+                        <Name xml:lang="ru">Поставщики</Name>
+                        <FullName xml:lang="ru">Поставщики</FullName>
+                    </Factor>
+                    <FactorVal id="14093" code="FV_14093" Order="1">
+                        <Name xml:lang="ru">Информационные системы АО "НК "КТЖ"</Name>
+                        <FullName xml:lang="ru">Информационные системы АО "НК "КТЖ"</FullName>
+                    </FactorVal>
+                </OwnerContainerFactor>
+            </DataProvider>
+            <DataProviderDefault id="12202" code="_O_12202">
+                <Version VersionNumber="" id="0" DateBegin="1800-01-01" DateEnd="3333-12-31"
+                         LatestVersion="Latest_version">
+                    <Name xml:lang="ru">ЕК ИОДВ</Name>
+                    <FullName xml:lang="ru">ЕК ИОДВ</FullName>
+                </Version>
+            </DataProviderDefault>
+        </PropertyRef>
+    </Properties>
+</Metadata>

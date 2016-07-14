@@ -558,7 +558,7 @@
         </xs:complexContent>
     </xs:complexType>
 
-    <xs:complexType name="VersionType" abstract="true">
+    <xs:complexType name="VersionType">
         <xs:annotation>
             <xs:documentation>VersionType есть абстрактный тип для моделирования версии версионных сущностей.
                 VersionType наследуется от AnnotableType, так как версия не имеет уникального кода.
@@ -605,16 +605,15 @@
         </xs:complexContent>
     </xs:complexType>
 
-    <xs:complexType name="TMessageType" abstract="true">
+    <xs:complexType name="MessageType" abstract="true">
         <xs:annotation>
             <xs:documentation>Абстрактный тип, описывающий структуру произвольного сообщения.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
             <xs:element name="Header" type="HeaderType"/>
             <xs:choice>
-                <xs:element name="data" type="DataType"/>
-                <xs:element name="metadata" type="MetadataType"/>
-                <xs:element name="status" type="StatusType"/>
+                <xs:element name="Data" type="DataType"/>
+                <xs:element ref="Metadata"/>
             </xs:choice>
             <xs:element name="Footer" type="FooterType" minOccurs="0"/>
         </xs:sequence>
@@ -1454,14 +1453,14 @@
 
     <xs:complexType name="MessageMetadataType">
         <xs:complexContent>
-            <xs:extension base="TMessageType">
+            <xs:extension base="MessageType">
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
 
     <xs:complexType name="MessageDataType">
         <xs:complexContent>
-        <xs:extension base="TMessageType">
+        <xs:extension base="MessageType">
         </xs:extension>
         </xs:complexContent>
     </xs:complexType>
@@ -1505,9 +1504,4 @@
         <xs:restriction base="xs:string"/>
     </xs:simpleType>
 
-    <xs:complexType name="StatusType">
-        <xs:annotation>
-            <xs:documentation>Техническая инофрмация. Например ошибка, или то что принято все нормально</xs:documentation>
-        </xs:annotation>
-    </xs:complexType>
 </xs:schema>
